@@ -29,3 +29,24 @@
   text-align: center;
 }
 
+
+
+.animated-sections {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%) ;
+  transition: all 1s;
+}
+.show-el {
+  filter: blur(0);
+  transform: translateX(0) ;
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .animated-sections {
+    filter: blur(0);
+    transform: translateX(0) ;
+    opacity: 1;
+  }
+}
