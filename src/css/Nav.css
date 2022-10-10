@@ -122,6 +122,9 @@
     .nav__link:hover:after {
         width: 100%;
     }
+    .nav__link:hover {
+        opacity: 1;
+    }
 }
 
 
