@@ -40,13 +40,14 @@ const About = () => {
                 <div className="about__text d-flex flex-column animated-sections">
                     <div>
                         <p>
-                            Hello, my name is Seif, i am a developer who loves trying and learning new stuff to create applications. I went to college in 2017, in 2018 when i learned Java, i made my first game using Eclipse.<br/> <br/>
-                            Few years later i learned Unity and started creating games collaborating with an artist, we made a very noticeable progress with some unreleased game projects, and finally we released 
+                            Hello, my name is Seif, I am a developer who loves trying and learning new stuff to create applications. I went to college in 2017, in 2018 when I learnt Java, I made my first game using Eclipse.<br/> <br/>
+                            Few years later I learned Unity and started creating games collaborating with an artist, we made a very noticeable progress with some unreleased game projects, and finally we released 
                             <span> <a href="https://sayyf.itch.io/i-wanna-be-the-vinci">I Wanna Be The Vinci</a></span> that was made originally for a game jam, but features were added to it later on. <br/> <br/>
-                            During that time, i also learned Web development to further improve my programming skills .
-                            <br /> <br /> Some of the technologies i used recently are:
+                            During that time, I also learned Web development to further improve my programming skills .
+                            <br /> <br /> 
                         </p>
                     </div>
+                        <span className='tech-title text-center'>Some of the technologies I used recently are:</span>
                     <ul className="about__tech-list ">
                         {
                             techList.map((tech,idx) => 

@@ -72,7 +72,7 @@
         height: 0;
         padding-top: 0;
         background-color: black;
-        top: var(--nav-height);
+        top: calc(var(--nav-height) - 0.6px );
         right: 0;
         border-bottom-left-radius: 15px;
         transition: 0.3s ease;
@@ -124,6 +124,7 @@
     }
     .nav__link:hover {
         opacity: 1;
+        
     }
 }
 

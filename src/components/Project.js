@@ -10,7 +10,7 @@ const Project = ({project, reversed}) => {
                     <img src={process.env.PUBLIC_URL + '/Assets/Icons/arrow.png'} alt="" />
                     <p>Check it Out</p>
                 </div>
-                <a target='__blank' href={project.link}></a>
+                <a target='_blank' href={project.link}></a>
             </div>
             
             <div className="project__description">

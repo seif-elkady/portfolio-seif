@@ -13,7 +13,7 @@
     width: 100%;
     height: 100%;
     object-fit:cover;
-    object-position:left;
+    /* object-position:left; */
     position: absolute;
     filter: brightness(.6);
     top: 0;
