@@ -8,17 +8,17 @@ const Projects = () => {
             id:1,
             title: 'MyReads',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque aperiam in perferendis! In, nesciunt?',
-            tags: ['Branding', 'E-Commerce', 'Responsive'],
+            tags: ['Ebooks', 'Responsive', 'ReactJs', 'API server', 'JavaScript'],
             thumbnail: process.env.PUBLIC_URL + '/Assets/Images/myreads.png',
-            link: 'https://github.com/Sayyfz/My-Reads'
+            link: 'https://myreads-seifelkady.netlify.app'
         },
         {
             id:2,
             title: 'E-Commerce Page',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque aperiam in perferendis! In, nesciunt?',
-            tags: ['Branding', 'E-Commerce', 'Responsive'],
+            tags: ['Branding', 'E-Commerce', 'Responsive', 'JavaScript'],
             thumbnail: process.env.PUBLIC_URL + '/Assets/Images/e-commerce-page.png',
-            link: 'https://github.com/Sayyfz/My-Reads'
+            link: 'https://e-commerce-page-seifelkady.netlify.app/'
         },
         {
             id:3,
