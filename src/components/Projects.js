@@ -14,7 +14,7 @@ const Projects = () => {
         },
         {
             id:2,
-            title: 'E-Commerce Page',
+            title: 'E-Commerce Page UI',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque aperiam in perferendis! In, nesciunt?',
             tags: ['Branding', 'E-Commerce', 'Responsive', 'JavaScript'],
             thumbnail: process.env.PUBLIC_URL + '/Assets/Images/e-commerce-page.png',
@@ -22,11 +22,11 @@ const Projects = () => {
         },
         {
             id:3,
-            title: 'E-Commerce Page',
+            title: 'Seafood restaurant site with CRUD operations',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque aperiam in perferendis! In, nesciunt?',
-            tags: ['Branding', 'E-Commerce', 'Responsive'],
-            thumbnail: process.env.PUBLIC_URL + '/Assets/Images/e-commerce-page.png',
-            link: 'https://github.com/Sayyfz/My-Reads'
+            tags: ['Branding', 'CRUD', 'Responsive'],
+            thumbnail: process.env.PUBLIC_URL + '/Assets/Images/seafood.png',
+            link: 'https://github.com/Sayyfz/seafood-site'
         },
         {
             id:4,
