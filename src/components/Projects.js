@@ -22,7 +22,7 @@ const Projects = () => {
         },
         {
             id:3,
-            title: 'Seafood restaurant site with CRUD operations',
+            title: 'MERN Stack Restaurant website',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque aperiam in perferendis! In, nesciunt?',
             tags: ['Branding', 'CRUD', 'Responsive'],
             thumbnail: process.env.PUBLIC_URL + '/Assets/Images/seafood.png',
