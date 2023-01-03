@@ -34,7 +34,7 @@ const Projects = () => {
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque aperiam in perferendis! In, nesciunt?',
             tags: ['Branding', 'E-Commerce', 'Responsive'],
             thumbnail: process.env.PUBLIC_URL + '/Assets/Images/e-commerce-page.png',
-            link: 'https://github.com/Sayyfz/My-Reads'
+            link: 'https://github.com/Sayyfz/'
         },
         {
             id:5,
@@ -42,7 +42,7 @@ const Projects = () => {
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque aperiam in perferendis! In, nesciunt?',
             tags: ['Branding', 'E-Commerce', 'Responsive'],
             thumbnail: process.env.PUBLIC_URL + '/Assets/Images/e-commerce-page.png',
-            link: 'https://github.com/Sayyfz/My-Reads'
+            link: 'https://github.com/Sayyfz/'
         },
     ]
 
