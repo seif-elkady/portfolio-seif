@@ -33,7 +33,7 @@ const Projects = () => {
             id: 6,
             title: 'Image Processor',
             description:
-                'Full-Stack Application responsible for doing various image processing operations on a given image and then saving it to the server file system',
+                'Full-Stack Application responsible for doing various image processing operations on a given image and saving it to the server file system, then it gets previewed in the Front-End',
             tags: ['Full-Stack', 'React', 'Node', 'Express'],
             thumbnail: process.env.PUBLIC_URL + '/Assets/Images/image-processor.png',
             link: 'https://github.com/Sayyfz/Image-Processing-App',
