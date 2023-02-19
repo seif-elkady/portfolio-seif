@@ -13,14 +13,6 @@ const Projects = () => {
             link: 'https://myreads-seifelkady.netlify.app',
         },
         {
-            id: 2,
-            title: 'E-Commerce Page UI',
-            description: 'Responsive product page using React, HTML and CSS',
-            tags: ['Branding', 'E-Commerce', 'React', 'Responsive', 'JavaScript'],
-            thumbnail: process.env.PUBLIC_URL + '/Assets/Images/e-commerce-page.png',
-            link: 'https://e-commerce-page-seifelkady.netlify.app/',
-        },
-        {
             id: 3,
             title: 'MERN Stack Restaurant website',
             description:
@@ -28,6 +20,14 @@ const Projects = () => {
             tags: ['Branding', 'CRUD', 'Responsive', 'MERN'],
             thumbnail: process.env.PUBLIC_URL + '/Assets/Images/seafood.png',
             link: 'https://github.com/Sayyfz/seafood-site',
+        },
+        {
+            id: 2,
+            title: 'E-Commerce Page UI',
+            description: 'Responsive product page using React, HTML and CSS',
+            tags: ['Branding', 'E-Commerce', 'React', 'Responsive', 'JavaScript'],
+            thumbnail: process.env.PUBLIC_URL + '/Assets/Images/e-commerce-page.png',
+            link: 'https://e-commerce-page-seifelkady.netlify.app/',
         },
         {
             id: 6,
