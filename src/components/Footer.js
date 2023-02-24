@@ -1,4 +1,5 @@
 import '../css/Footer.css';
+import info from '../constants/contactInfo';
 
 const Footer = () => {
     return (
@@ -12,19 +13,15 @@ const Footer = () => {
                     />
                     <div className='contact-me__content'>
                         <h2 className='footer__section-title text-center'>Contact Me</h2>
-                        <p className='footer__section-text'>+201012975458</p>
-                        <p className='footer__section-text'>seifelkadydev81@hotmail.com</p>
-                        <p className='footer__section-text'>Giza, Egypt</p>
+                        <p className='footer__section-text'>{info.phone}</p>
+                        <p className='footer__section-text'>{info.email}</p>
+                        <p className='footer__section-text'>{info.location}</p>
                     </div>
                 </div>
                 <div className='col animated-sections'>
                     <h2 className='footer__section-title text-center'>Social Media</h2>
                     <div className='social-icons'>
-                        <a
-                            target='__blank'
-                            href='https://www.facebook.com/saifeldien.elkady/'
-                            className='social-link'
-                        >
+                        <a target='__blank' href={info.facebook} className='social-link'>
                             <img
                                 src={process.env.PUBLIC_URL + '/Assets/Icons/Facebook.png'}
                                 alt=''
@@ -32,11 +29,7 @@ const Footer = () => {
                             />
                         </a>
 
-                        <a
-                            target='__blank'
-                            href='https://github.com/Sayyfz'
-                            className='social-link'
-                        >
+                        <a target='__blank' href={info.github} className='social-link'>
                             <img
                                 src={process.env.PUBLIC_URL + '/Assets/Icons/Github.png'}
                                 alt=''
@@ -44,11 +37,7 @@ const Footer = () => {
                             />
                         </a>
 
-                        <a
-                            target='__blank'
-                            href='https://itch.io/dashboard'
-                            className='social-link'
-                        >
+                        <a target='__blank' href={info.itchio} className='social-link'>
                             <img
                                 src={process.env.PUBLIC_URL + '/Assets/Icons/Itchio.png'}
                                 alt=''
@@ -56,11 +45,7 @@ const Footer = () => {
                             />
                         </a>
 
-                        <a
-                            target='__blank'
-                            href='https://www.linkedin.com/in/seif-elkady/'
-                            className='social-link'
-                        >
+                        <a target='__blank' href={info.linkedin} className='social-link'>
                             <img
                                 src={process.env.PUBLIC_URL + '/Assets/Icons/LinkedIn.png'}
                                 alt=''
