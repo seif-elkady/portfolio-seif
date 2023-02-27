@@ -21,14 +21,6 @@ const Footer = () => {
                 <div className='col animated-sections'>
                     <h2 className='footer__section-title text-center'>Social Media</h2>
                     <div className='social-icons'>
-                        <a target='__blank' href={info.facebook} className='social-link'>
-                            <img
-                                src={process.env.PUBLIC_URL + '/Assets/Icons/Facebook.png'}
-                                alt=''
-                                className='social-icon'
-                            />
-                        </a>
-
                         <a target='__blank' href={info.github} className='social-link'>
                             <img
                                 src={process.env.PUBLIC_URL + '/Assets/Icons/Github.png'}
