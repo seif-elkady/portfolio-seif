@@ -1,5 +1,3 @@
-
-
 .projects {
     /* display: grid; */
     width: 100%;
@@ -12,7 +10,6 @@
     padding: 0em 1em;
 }
 
-
 .projects-list {
     gap: 60px;
     padding: 6rem 0;
@@ -23,7 +20,7 @@
 }
 
 .project-card-reversed {
-    flex-direction: row-reverse!important;
+    flex-direction: row-reverse !important;
 }
 
 .project__img {
@@ -32,7 +29,10 @@
 .project__img img:first-child {
     aspect-ratio: 16/9;
     max-width: 100%;
-    border: .5px solid rgba(117, 112, 112, 0.199);
+    border: 0.5px solid rgba(117, 112, 112, 0.199);
+}
+.check-it-icon {
+    pointer-events: none;
 }
 .projects__description {
     width: 100%;
@@ -41,20 +41,17 @@
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
-
 }
 .tag {
     border: 2px solid var(--clr-tags);
     color: var(--clr-muted);
     border-radius: 25px;
-    padding: .5em .5rem;
+    padding: 0.5em 0.5rem;
 }
 
-
-
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .project-card {
-        flex-direction: column!important;
+        flex-direction: column !important;
         text-align: center;
     }
 
@@ -69,21 +66,18 @@
     }
 }
 
-
-
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     .projects-list {
-
     }
     .projects__description {
-        width: clamp(200px,700px ,70vw);
+        width: clamp(200px, 700px, 70vw);
         margin-left: auto;
         margin-right: auto;
         align-self: flex-start;
     }
     .project-card {
         gap: clamp(20px, 20vw, 50px);
-        flex-direction: row;   
+        flex-direction: row;
     }
     .project__img a {
         bottom: 0;
@@ -94,21 +88,21 @@
     }
     .project__img {
         width: 50%;
-        
+
         position: relative;
-        transform: translate(0,0);
+        transform: translate(0, 0);
         filter: drop-shadow(0 0 0 black) brightness(1);
         transition: 0.3s ease;
     }
     .project__img > img {
         border-radius: 15px;
         filter: drop-shadow(0 0 0 black) brightness(1);
-        
+
         transition: 0.3s ease;
     }
 
     .project__img:hover {
-        transform: translate(-10px,-10px);
+        transform: translate(-10px, -10px);
     }
     .project__img:hover > img {
         filter: drop-shadow(16px 16px 0 black) brightness(0.5);
@@ -117,7 +111,6 @@
         opacity: 1;
         bottom: 30px;
         left: 40px;
-
     }
     .check-it-icon {
         position: absolute;
@@ -129,15 +122,15 @@
         left: 50px;
         opacity: 0;
         cursor: pointer;
-        transition: .3s ease;
+        transition: 0.3s ease;
     }
     .check-it-icon p {
         margin: 0;
         margin-top: 0.5rem;
         color: white;
     }
-    
-    .check-it-icon img{
+
+    .check-it-icon img {
         width: 60px;
         height: 60px;
         border: none;
