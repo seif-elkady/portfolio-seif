@@ -1,5 +1,14 @@
 const projects = [
     {
+        id: 7,
+        title: 'E-watch store',
+        description:
+            'Full-Stack Application simulating a real e-commerce site to buy watches. Features include easy navigation of the product database, product searching, a shopping cart, user profiles, Stripe checkout, and product filters.',
+        tags: ['Full-Stack', 'React', 'TypeScript', 'Node', 'PostgreSQL'],
+        thumbnail: process.env.PUBLIC_URL + '/Assets/Images/e-watch.png',
+        link: 'https://github.com/Sayyfz/store-front-app/',
+    },
+    {
         id: 1,
         title: 'MyReads',
         description:
