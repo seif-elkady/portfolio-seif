@@ -25,10 +25,10 @@ const About = () => {
                             </span>{' '}
                             that was made originally for a game jam, but features were added to it
                             later on. <br /> <br />
-                            To improve my programming skills further, I learned Front-End
-                            Development and graduated from Udacity's React Development
-                            Cross-Skilling Nanodegree followed by Backend Development with another
-                            Udacity's certificate for Full-Stack Advanced Track.
+                            To improve my programming skills further, I learned Frontend Development
+                            and graduated from Udacity's React Development Cross-Skilling Nanodegree
+                            followed by Backend Development with another Udacity's certificate for
+                            Full-Stack Advanced Track.
                             <br /> <br />
                         </p>
                     </div>
