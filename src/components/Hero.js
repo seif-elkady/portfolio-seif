@@ -1,7 +1,7 @@
 import '../css/Hero.css';
 
 const Hero = () => {
-    const bg = 'Assets/Images/hero bg.jpg';
+    const bg = 'Assets/Images/hero bg.png';
 
     return (
         <div className='hero animated-sections' id='portfolio'>
