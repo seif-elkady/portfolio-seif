@@ -31,12 +31,12 @@ export const techList = [
         name: 'Express',
         icon: process.env.PUBLIC_URL + '/Assets/Icons/Expressjs icon.png',
     },
-    {
-        name: 'MongoDB',
-        icon: process.env.PUBLIC_URL + '/Assets/Icons/Mongodb icon.png',
-    },
-    {
-        name: 'PostgreSQL',
-        icon: process.env.PUBLIC_URL + '/Assets/Icons/Postgresql icon.png',
-    },
+    // {
+    //     name: 'MongoDB',
+    //     icon: process.env.PUBLIC_URL + '/Assets/Icons/Mongodb icon.png',
+    // },
+    // {
+    //     name: 'PostgreSQL',
+    //     icon: process.env.PUBLIC_URL + '/Assets/Icons/Postgresql icon.png',
+    // },
 ];
