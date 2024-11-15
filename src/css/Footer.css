@@ -41,6 +41,7 @@
 
 .social-icons {
     display: flex;
+    justify-content: center;
     gap: 40px;
 }
 .social-link {

@@ -28,14 +28,13 @@ const Footer = () => {
                                 className='social-icon'
                             />
                         </a>
-                        {/*  */}
-                        <a target='__blank' href={info.itchio} className='social-link'>
+                        {/* <a target='__blank' href={info.itchio} className='social-link'>
                             <img
                                 src={process.env.PUBLIC_URL + '/Assets/Icons/Itchio.png'}
                                 alt=''
                                 className='social-icon'
                             />
-                        </a>
+                        </a> */}
 
                         <a target='__blank' href={info.linkedin} className='social-link'>
                             <img

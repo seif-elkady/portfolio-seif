@@ -7,7 +7,7 @@ const Projects = () => {
         <div className='projects container' id='projects'>
             <hr style={{ width: '100%' }} />
 
-            <h2 className='section-title text-center animated-sections'>Projects</h2>
+            <h2 className='section-title text-center animated-sections'>Personal Projects</h2>
             <p className='projects__description text-center animated-sections'>
                 I love transforming residential design into interactive interface that is tempting
                 to interact with.

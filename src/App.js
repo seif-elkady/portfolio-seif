@@ -43,7 +43,7 @@ function App() {
 	useEffect(() => {
 		setTimeout(() => {
 			setShowSplash(false);
-		}, 2500);
+		}, 1500);
 	}, []);
 
 	return (

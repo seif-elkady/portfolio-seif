@@ -8,7 +8,7 @@ const Hero = () => {
             <img className='hero__bg animated-sections' src={process.env.PUBLIC_URL + bg} alt='' />
             <div className='container'>
                 <h1 className='hero__title text-center animated-sections'>
-                    Unveiling Seif's Journey and Aspirations, Welcome to My Portfolio
+                    Seif's Portfolio – Crafting Solutions with Code and Creativity
                 </h1>
                 <p className='hero__text text-center animated-sections'>
                     I am a software developer with an affinity for working with creative individuals
